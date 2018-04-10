@@ -1,0 +1,62 @@
+==================================================================
+https://keybase.io/santosomar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://theartofhacking.org
+  * I am santosomar (https://keybase.io/santosomar) on keybase.
+  * I have a public key with fingerprint ECBF 3827 33CC 1A91 9C44  F6E0 8E19 A9D1 3AF2 7EDC
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ba2a18d531360758ceff6f21ef9ed8388d2790e17b20d29e5726c7e1ec487ca00a",
+      "fingerprint": "ecbf382733cc1a919c44f6e08e19a9d13af27edc",
+      "host": "keybase.io",
+      "key_id": "8e19a9d13af27edc",
+      "kid": "01115020d56e87d4481103b1c2354ac689f5de61174460ab0dd1afe26cbd53ba727b0a",
+      "uid": "ad49f9ad828eb418a1e938558750eb19",
+      "username": "santosomar"
+    },
+    "service": {
+      "hostname": "theartofhacking.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1523402476,
+  "expire_in": 157680000,
+  "prev": "04aff8352812385499c340259242acf4608a6c24c1ae8f64e7b5001c9ca9a4f5",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUr9rVTEYva0t1IrYLoKCgxnUQilJbnKTPBwqiH9EQZ5fki/vXdre+7z3ttrW
+6iTo4o9dpKuDk3+A7urgVqyDq+igDoKIYPJoN7OEfJxzcs5Jnpw8lk3OPzrz4kPv
+591PE2+/2Gzl/bW/O8TWfov0dsgqjjdc89h2/dXSkx6hjFMLHJj2Mmd5QZXUDkMo
+AmcYDHqda+25MhSZspx6blAqXjiFDJ3QygGlQBZJKKsBNqOmrLooi86GXHOV584x
+MMw4IUKBVCMzYDzLIXCF3kXisG4TI5qz0OJSWcdZPPTH9v6DP/LNmKTRjyxQKy+E
+ZozmljmeSwGu0CZIjwVjSoiCgqXeMwgYjdsY1ILiyo59b4zlwAsTDHjNNVrBNDA0
+uZZSK0nRMpOALTYVrGNEt1B1dVuvQ0N2F0mcb5YOU7UpyyGmGyI0XR2G4FZjNUt1
+M4gio6bualevRcCw60ZtLwl0W6PEuIW2f6jVt2XlIysyNrFpy7oiPRaRriuTOJM8
+F5QLVSwSvD0qG+yXCSFVoWlc6R7cJBBrEhCCziXXjMc8whiXmNJwwcGFWI2GwnER
+Hwl1KAQqKyllzjgwIIIkKd7NqiY9E33CIIUvBxV0Gw2S3dkH16ey+cns3OnzU99e
+64v5u7NPn1399fnoD05Ppg+YzR6fO5rcuZztPZ6ZuX9qbnv665WDlYcX9ifmXi18
+z55fWl75s3xv/+XCG/njd3uw9/HE9o1/
+=rkyS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/santosomar
+
+==================================================================
