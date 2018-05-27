@@ -1,0 +1,132 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+    
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Unix Permissions and Lookup</title>
+	
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+	<link type="text/css" rel="stylesheet" href="/assets/css/styles.014.css">
+	
+	<meta name="description" content="Permissions Calculator provides a straight forward way to work out how to change permissions with the chmod command.">
+    <meta name="keywords" content="unix, linux, permissons, calculator, perms, chmod, chown, chgrp, octal, symbolic, lookup, convert">
+	
+
+
+</head>
+
+<body class="index">
+    <div id="header">
+        <h1>Unix Permissions Calculator</h1>
+        
+    </div>
+    <div id="main">
+
+        <ul id="nav">
+        
+          <li class="selected">
+            Octal
+        </li>
+        
+          <li>
+            <a href="/decode/">Decode Octal</a>
+        </li>
+        
+          <li>
+            <a href="/symbolic/">Symbolic</a>
+        </li>
+        
+          <li>
+            <a href="/info/">Info</a>
+        </li>
+        
+          <li>
+            <a href="/examples/">Code Examples</a>
+        </li>
+        
+        </ul>
+    
+        <div id="content">
+            <div id="content-main">
+                
+    <h2>Permission bits</h2>
+    
+    <p>Select the permissions you require below. The tool will provide you with an octal code that corresponds to these permissions which can then be applied to relevant directories and files with  <code>chmod</code>.</p>
+    <form id="perms" action="" method="post">
+        
+        <div id="perms-fieldset-container">
+            
+            <fieldset id="special">
+                <legend>Special</legend>
+                <div><label for="suid"><input type="checkbox" name="suid" value="4000" id="suid">setuid</label><a href="/info/#setuid" class="help"><span class="acchide">What is setuid?</span></a></div>
+                <div><label for="sgid"><input type="checkbox" name="sgid" value="2000" id="sgid">setgid</label><a href="/info/#setgid"  class="help"><span class="acchide">What is setgid?</span></a></div>
+                <div><label for="sticky_bit"><input type="checkbox" name="sticky_bit" value="1000" id="sticky_bit">Sticky bit</label><a href="/info/#sticky-bit" class="help"><span class="acchide">What is Sticky bit?</span></a></div>
+            </fieldset>
+            
+            <fieldset id="user">
+                <legend>User</legend>
+                <label for="user_read"><input type="checkbox" name="user_read" value="0400" id="user_read">Read</label>
+                <label for="user_write"><input type="checkbox" name="user_write" value="0200" id="user_write">Write</label>
+                <label for="user_execute"><input type="checkbox" name="user_execute" value="0100" id="user_execute">Execute</label>
+            </fieldset>
+            
+            <fieldset id="group">
+                <legend>Group</legend>
+                <label for="group_read"><input type="checkbox" name="group_read" value="0040" id="group_read">Read</label>
+                <label for="group_write"><input type="checkbox" name="group_write" value="0020" id="group_write">Write</label>
+                <label for="group_execute"><input type="checkbox" name="group_execute" value="0010" id="group_execute">Execute</label>
+            </fieldset>
+            
+            <fieldset id="other" class="last">
+                <legend>Other</legend>
+                <label for="other_read"><input type="checkbox" name="other_read" value="0004" id="other_read">Read</label>
+                <label for="other_write"><input type="checkbox" name="other_write" value="0002" id="other_write">Write</label>
+                <label for="other_execute"><input type="checkbox" name="other_execute" value="0001" id="other_execute">Execute</label>
+            </fieldset>
+        </div>
+    
+        
+        
+        <div id="results">
+            <h2>Absolute Notation (octal)</h2>
+            <p id="octal">0000</p>
+            <p class="example">e.g: chmod <span id="octal_example">0000</span> &lt;path-to-file&gt;</p>
+        </div>
+        <div>
+            <input id="submit" type="submit" value="Submit">
+        </div>
+    </form>
+
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        
+                    
+    </div>
+    
+    
+    <script type="text/javascript" src="/assets/js/jquery.min.126.js"></script>
+    <script type="text/javascript" src="/assets/js/perms.005.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55581850-1', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['danstools.com','unixtimestamp.com','url-encode-decode.com','cssfontstack.com','hexcolortool.com','htaccessredirect.net','jspretty.com','jsmini.com','jsobfuscate.com','md5hashgenerator.com','regextester.com','cleancss.com','favicon-generator.org','website-performance.org','permissions-calculator.org'] );
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
