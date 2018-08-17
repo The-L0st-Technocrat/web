@@ -10,7 +10,6 @@ The following are the different video courses that will be part of the Art of Ha
 * Enterprise Penetration Testing and Continuous Monitoring (the Art of Hacking Series) * LiveLessons
 * Wireless Networks, IoT, and Mobile Devices Hacking (The Art of Hacking Series) LiveLessons
 * Advanced Web Applications Penetration Testing (The Art of Hacking Series) LiveLessons
-* Advanced Network Hacking (The Art of Hacking Series) LiveLessons
 
 These courses serve as comprehensive guide for any network and security professional who is starting a career in ethical hacking and penetration testing. It also can help individuals preparing for the Offensive Security Certified Professional (OSCP), the Certified Ethical Hacker (CEH), and any other ethical hacking certification. This course helps any cyber security professional that want to learn the skills required to becoming a professional ethical hacker or that want to learn more about general hacking methodologies and concepts.
 
